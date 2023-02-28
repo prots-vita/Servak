@@ -68,7 +68,7 @@ int main(){
 	space.arr = malloc(12*sizeof(int));
 	space.size = 12;
 	space.tail = -1;
-	for (int i = 1; i<43; i++){
+	for (int i = 1; i<40; i++){
 		switch(rand()%2){
 			case 2:
 				if (queue(&space, i)){
